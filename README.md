@@ -58,3 +58,13 @@ sobressalentes com quem mais precisa delas.
 
 ![image](https://github.com/victorlfernandes/Hardware-sharing-system/assets/87901904/cd39c378-8b23-4116-a669-372ac600840b)
 
+## Consultas
+
+Desenvolvemos as seguintes consultas para o nosso sistema:
+
+- Categorias de itens doados em um certo período
+- Doações feitas para escolas com menos de 3 alunos
+- Chat entre usuários, envolvendo um post
+- Maiores avaliações de todos os usuários
+- Usuários que foram avaliados por todos os colaboradores
+
