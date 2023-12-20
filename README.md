@@ -86,24 +86,25 @@ configurado na máquina, para que seja possível iniciar e
 executar o banco de dados.
 Por fim, é necessário instalar a biblioteca Psycopg2, através
 do seguinte comando:
-pip3 install psycopg2-binary
+ **pip3 install psycopg2-binary**
 
-Utilização
+### Utilização
 Para executar a aplicação, primeiramente é preciso iniciar o
 banco de dados. Para isso, é necessário estar com o Docker
 executando e rodar o seguinte comando, no diretório Docker do
-projeto:
-docker-compose up
+projeto: **docker-compose up**
+
 Para executar a aplicação, basta rodar o seguinte comando no
 diretório raiz do projeto:
-python3 Application/app.py
+**python3 app.py**
+
 Desta forma, a aplicação iniciará e solicitará para que o
 usuário entre com um dos comandos disponíveis:
-● registrar: funcionalidade para registrar um novo usuário
+- registrar: funcionalidade para registrar um novo usuário
 no sistema. Serão requisitados os dados referentes a
 entidade Usuário, como “email” e “nome”;
-● buscar: funcionalidade para retornar a média das notas de
+- buscar: funcionalidade para retornar a média das notas de
 avaliações de um determinado usuário, informado pelo
 usuário;
-● sair: funcionalidade para encerrar a aplicação.
+- sair: funcionalidade para encerrar a aplicação.
 
